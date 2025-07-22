@@ -1,7 +1,7 @@
 name: Python Lint
 on:
-  событие:
-    branches: [ имя_ветки ]
+  klmn:
+    branches: [ main ]
 jobs:
   lint:
     runs-on: ubuntu-latest
@@ -13,7 +13,7 @@ steps:
       python-version: '3.11'  
 - name: Install dependencies
     run: |
-      pip install имя_линтера      
+      pip install klmsnv1      
 - name: Run Linter
     run: |
-      имя_линтера task_1/main.py --max-line-length=88      
+      klmsnv1 task_1/main.py --max-line-length=88      
